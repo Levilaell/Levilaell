@@ -11,8 +11,8 @@ Graduated in Systems Analysis and Development. Founded and launched [CaixaHub](h
 | Project          | Stack             | Status                 |
 | ---------------- | ----------------- | ---------------------- |
 | Multi-Sig Wallet | Solidity, Foundry | ✅ Deployed on Sepolia |
-| AMM Protocol     | Solidity, Foundry | 🔄 In progress         |
-| Lending Protocol | Solidity, Foundry | ⏳ Upcoming            |
+| AMM Protocol     | Solidity, Foundry | ✅ Deployed on Sepolia |
+| Lending Protocol | Solidity, Foundry | ✅ Deployed on Sepolia |
 
 ---
 
@@ -39,6 +39,12 @@ Graduated in Systems Analysis and Development. Founded and launched [CaixaHub](h
 
 **[Multi-Sig Wallet](https://github.com/Levilaell/multisig-wallet)**
 M-of-N multi-signature wallet in Solidity. Owners propose, confirm, and execute transactions with configurable threshold. Full Foundry test suite with 90% coverage. Deployed on Sepolia.
+
+**[AMM Protocol](https://github.com/Levilaell/amm)**
+Uniswap V2-inspired AMM with constant product formula x*y=k. Supports liquidity provision, LP token minting, and token swaps with 0.3% fee. Deployed on Sepolia.
+
+**[Lending Protocol](https://github.com/Levilaell/lending-protocol)**
+Aave-inspired lending protocol with collateral-backed borrowing, 75% LTV, and on-chain liquidation with 10% bonus for liquidators. Deployed on Sepolia.
 
 **[CaixaHub](#)**
 Financial management SaaS for Brazilian SMBs. Integrates with Open Finance APIs for automatic transaction categorization, cash flow reporting, and financial insights. Paying customers.
