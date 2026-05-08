@@ -1,62 +1,38 @@
-# Hi, I'm Levi Lael 👋
+# Levi Lael
 
-**Full Stack & Web3 Developer** — building DeFi protocols and fintech products from Brazil.
+> *AI operations engineering. I build systems that run in production without falling apart.*
 
-Graduated in Systems Analysis and Development. Founded and launched [CaixaHub](https://github.com/Levilaell), a financial management SaaS for Brazilian small businesses with Open Finance integration. Now transitioning into Web3, focused on smart contract development and the Brazilian Drex/fintech market.
+Most “AI” projects today are demos. They work on stage and break the moment real traffic hits. My thesis: **the difference between a demo and a system is the boring part** — idempotency, exponential retries, cost telemetry, multi-provider orchestration.
 
----
-
-### 🔨 Currently Building
-
-| Project          | Stack             | Status                 |
-| ---------------- | ----------------- | ---------------------- |
-| Multi-Sig Wallet | Solidity, Foundry | ✅ Deployed on Sepolia |
-| AMM Protocol     | Solidity, Foundry | ✅ Deployed on Sepolia |
-| Lending Protocol | Solidity, Foundry | ✅ Deployed on Sepolia |
+That’s the part the market doesn’t want to build — which is why companies hire me to build it.
 
 ---
 
-### 🛠 Tech Stack
+### What I have in production
 
-**Web3**
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat&logoColor=white)
-![Ethers.js](https://img.shields.io/badge/Ethers.js-2535a0?style=flat&logoColor=white)
+**[CaixaHub](https://github.com/levilael)** — Financial SaaS for Brazilian SMBs  
+Integrated with 100+ banks through Open Finance. Idempotent webhook handlers, boleto OCR with human review, and a self-learning categorization engine that improves with every correction. Ran with paying customers before being paused.
 
-**Frontend**
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+`Django` `Next.js 14` `PostgreSQL` `Celery+Redis` `Stripe` `Pluggy` `OpenAI` `Google Cloud Vision`
 
-**Backend**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+**[FastDevBuilds](https://github.com/levilael)** — B2B outbound automation platform  
+End-to-end pipeline: lead discovery via Google Places → AI qualification (PageSpeed + visual analysis using Claude Haiku) → personalized WhatsApp outreach → website demo generation in under 90 seconds with Claude Opus.
 
----
+`Next.js 16` `React 19` `Supabase` `Anthropic Claude` `Evolution API` `Puppeteer`
 
-### 📌 Featured Projects
+**[levilael.com.br](https://levilael.com.br)** — My personal website  
+AI-generated operations diagnosis, cron-based nurturing email sequences, complete editorial system, and custom LGPD-compliant tracking.
 
-**[Multi-Sig Wallet](https://github.com/Levilaell/multisig-wallet)**
-M-of-N multi-signature wallet in Solidity. Owners propose, confirm, and execute transactions with configurable threshold. Full Foundry test suite with 90% coverage. Deployed on Sepolia.
-
-**[AMM Protocol](https://github.com/Levilaell/amm)**
-Uniswap V2-inspired AMM with constant product formula x*y=k. Supports liquidity provision, LP token minting, and token swaps with 0.3% fee. Deployed on Sepolia.
-
-**[Lending Protocol](https://github.com/Levilaell/lending-protocol)**
-Aave-inspired lending protocol with collateral-backed borrowing, 75% LTV, and on-chain liquidation with 10% bonus for liquidators. Deployed on Sepolia.
-
-**[CaixaHub](#)**
-Financial management SaaS for Brazilian SMBs. Integrates with Open Finance APIs for automatic transaction categorization, cash flow reporting, and financial insights. Paying customers.
+`Next.js 16` `TypeScript` `Tailwind v4` `Anthropic` `Supabase` `Resend` `Notion`
 
 ---
 
-### 📫 Get in Touch
+### Daily stack
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/levi-lael/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Levilaell)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:levilael2@hotmail.com)
-
----
-
-_Open to remote opportunities in Web3 and Full Stack development._
+```txt
+Backend         Python (Django REST), Node.js, TypeScript
+Frontend        Next.js (App Router), React, Tailwind
+AI/LLMs         Anthropic Claude (Opus, Sonnet, Haiku), OpenAI
+Data            PostgreSQL, Supabase
+Infra           Docker, Vercel, Railway, Celery+Redis
+Automation      n8n, Make, custom Python pipelines
